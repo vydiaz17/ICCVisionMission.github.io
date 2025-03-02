@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'SerifText'; 
+    src: url(SerifText/DMSerifText-Regular.ttf); 
+  }
+  
+  body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    background-image: url(ICC_pic.png);
+    background-size: cover;
+    height: 100vh; 
+    background-position: center;
+   
+  font-family: 'SerifText';
+  }
+  
+  .wrapper {
+  height: 350px;
+  width: 800px;
+  display: flex;
+  gap: 20px;
+  }
+  
+  .box {
+  flex: 1;
+  border: 10px  rgb(65, 95, 116);
+  font-size: 140%;
+  padding: 350px;
+  }
+  .box1 {
+  background-color: #000000;
+  color: #fff;
+  opacity: 0.3;
+  }
+  
+  .box2 {
+    width: 70%; /* Adjust width as needed */
+    height: auto; /* Set a specific height if necessary, or use 'auto' */
+    padding: 40px; /* Increase padding for more space around text */
+    background-color: white; /* Ensure visibility */
+    border-radius: 10px; /* Optional for rounded corners */
+    margin: 50px auto; /* Centers the box */
+    text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 10px  rgb(65, 95, 116);
+  color: #000000;
+  }
+  
